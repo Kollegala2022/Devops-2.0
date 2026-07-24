@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.home-page {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/flats-list-bg.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.book-card {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+}
+
+.home-head {
+    color: #f19116;
+    font-size: 20px;
+    font-family: Bree Serif;
+}
+
+.home-para {
+    color: #7b8794;
+    font-size: 12px;
+    font-family: Bree Serif;
+}
+
+.home-btn {
+    background-color: #f19116;
+    color: #ffffff;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border-width: 0;
+    margin: 5px;
+    font-size: 14px;
+    font-family: Bree Serif;
+}
+
+.flats {
+    background-color: #222222;
+    padding: 10px;
+}
+
+.flat-main-head {
+    font-size: 30px;
+    font-family: Bree Serif;
+    color: #f19116;
+}
+
+.flat-cards {
+    border-radius: 10px;
+    margin: 10px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image {
+    height: 100%;
+    width: 80px;
+    object-fit: cover;
+}
+
+.flat-content-cards {
+    padding: 20px;
+}
+
+.flat-head {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bree Serif;
+}
+
+.flat-para {
+    font-size: 16px;
+    font-family: Bree Serif;
+}
+
+.flat-btn {
+    background-color: #f19116;
+    width: 50px;
+    color: #ffffff;
+}
+
+.all-flat-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.all-flat-card {
+    background-color: #222222;
+    padding: 20px;
+}
+
+.all-flat-head {
+    font-size: 20px;
+    font-family: Bree Serif;
+    color: #f19116;
+}
+
+.all-flat-para {
+    font-size: 16px;
+    font-family: Bree Serif;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.all-flat-btn {
+    background-color: #f19116;
+    color: #ffffff;
+    width: 100px;
+    margin: 10px;
+}
+
+.all-flat-location {
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    margin-right: 10px;
+}
