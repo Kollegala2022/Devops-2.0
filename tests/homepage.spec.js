@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 
 test('Book Flats website loads successfully', async ({ page }) => {
 
-    await page.goto('http://localhost:8000/Book%20Flats/index.html');
+    await page.goto('http://book-flats-server/index.html');
 
     await expect(page).toHaveTitle(/Book Flats/i);
 
@@ -12,9 +12,10 @@ test('Book Flats website loads successfully', async ({ page }) => {
 
 });
 
+
 test('CSS is loaded', async ({ page }) => {
 
-    await page.goto('http://localhost:8000/Book%20Flats/index.html');
+    await page.goto('http://book-flats-server/index.html');
 
     const stylesheets = await page.locator('link[rel="stylesheet"]').count();
 
@@ -22,9 +23,10 @@ test('CSS is loaded', async ({ page }) => {
 
 });
 
+
 test('Images load correctly', async ({ page }) => {
 
-    await page.goto('http://localhost:8000/Book%20Flats/index.html');
+    await page.goto('http://book-flats-server/index.html');
 
     const images = page.locator('img');
 
