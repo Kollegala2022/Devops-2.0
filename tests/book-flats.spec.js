@@ -1,3 +1,4 @@
+//book-flats.spec.js
 const { test, expect } = require('@playwright/test');
 
 test('Book Flats website loads successfully', async ({ page }) => {
